@@ -1,0 +1,31 @@
+
+
+/* Section Two */
+.boxSectionTwo{
+align-items: center;
+justify-content: center;
+background-color: #fafcff;
+margin: 0;
+}
+.frameSectionTwoFirst{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.frameSectionTwoSecond{
+    align-items: center;
+    justify-content: center;
+}
+
+
+.frameSectionTwoFirst p{
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    width: 800px;
+    margin-bottom: 100px;
+    line-height: 46.5px;
+}

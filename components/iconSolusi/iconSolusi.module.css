@@ -1,0 +1,93 @@
+.bgChart {
+  background-color: #9bd8a1;
+  border-radius: 300px;
+  height: 114px;
+  width: 114px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bgStar {
+  background-color: #7f98c1;
+  border-radius: 300px;
+  height: 114px;
+  width: 114px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bgMaximaze {
+  background-color: #c290da;
+  border-radius: 300px;
+  height: 114px;
+  width: 114px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bgShield {
+  background-color: #ECD37A;
+  border-radius: 300px;
+  height: 114px;
+  width: 114px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bgLike {
+  background-color: #e89e9e;
+  border-radius: 300px;
+  height: 114px;
+  width: 114px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bgCheck {
+  background-color: #58be62;
+  border-radius: 300px;
+  height: 24px;
+  width: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.bgLikeShapes{
+  background-color: #7f98c1;
+  border-radius: 300px;
+  height: 42px;
+  width: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.bgProfile{
+  background-color: #e89e9e;
+  border-radius: 300px;
+  height: 42px;
+  width: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.bgFolder{
+  background-color: #9bd8a1;
+  border-radius: 300px;
+  height: 42px;
+  width: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}

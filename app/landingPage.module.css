@@ -1,0 +1,29 @@
+
+
+.navColumn{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pharmacinNav{
+    color: #001B45;
+}
+
+.middleColumn{
+    display: flex;
+    justify-content: space-around;
+    font-size: 16px;
+    color: #828282;
+}
+.hubungi{
+    font-weight: bold;
+    padding: 7px 12px;
+    border: solid 1px;
+    border-radius: 35px;
+    color: #58BE62;
+}
+
+.hubungi:hover{
+    background-color: #58BE62;
+    color: white;
+}

@@ -1,0 +1,244 @@
+/* Section Two */
+.Combine{
+  display: flex;
+  flex-direction: column;
+}
+.boxSectionTwo {
+  height: 760px;
+  width: 100%;
+}
+
+.sectionTwoMain {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.imgStyle {
+  width: 430px;
+  height: 540px;
+}
+
+.serviceMain {
+  display: flex;
+  flex-direction: column;
+  width: 593px;
+}
+
+.servicePharmacin {
+  align-items: center;
+  background-color: #e8ffea;
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 24px;
+  display: inline-flex;
+  gap: 10px;
+  justify-content: center;
+  padding: 10px 20px;
+  width: fit-content;
+}
+
+.servicePharmacin p {
+  color: #58be62;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  margin-bottom: -1px;
+}
+
+.middleSectionTwo p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 30px;
+  color: #262626;
+}
+
+.middleSectionUnderTwo p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #656565;
+}
+
+.listFitur {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #262626;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.listFiturItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* Section Three */
+.boxSectionThree {
+  height: 480px;
+  width: 100%;
+  margin-top: 164px;
+}
+
+.frameSectionThree {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.textWrapperSolusi {
+  text-align: center;
+}
+
+.textWrapperSolusi p {
+  background-color: #c9daf4;
+  border: solid none;
+  border-radius: 24px;
+  padding: 10px 20px;
+  width: 117px;
+  color: #567ebc;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.textWrapperSecond {
+  width: 722px;
+}
+
+.textWrapperSecond p {
+  color: var(--Regular, #262626);
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0;
+}
+
+.textWrapperThird {
+  width: 593px;
+}
+
+.textWrapperThird p {
+  color: #8b8b8b;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+@media (min-width: 360px) and (max-width: 768px){
+  /* Section Two */
+  .Combine{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .boxSectionTwo {
+    height: 760px;
+    width: 100%;
+  }
+  
+  .sectionTwoMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .imgStyle {
+    width: 320px;
+    height: 402px;
+  }
+  .serviceMain {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    margin-top: 50px;
+  }
+  .middleSectionTwo p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27.5px;
+    color: #262626;
+  }
+  
+  .middleSectionUnderTwo p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #656565;
+  }
+
+
+  /* Section Three */
+  .boxSectionThree {
+    height: 286px;
+    width: 100%;
+    margin-top: 164px;
+  }
+
+  .frameSectionThree {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .textWrapperSolusi {
+    text-align: center;
+  }
+
+  .textWrapperSolusi p {
+    background-color: #c9daf4;
+    border: solid none;
+    border-radius: 24px;
+    padding: 10px 20px;
+    width: 117px;
+    color: #567ebc;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .textWrapperSecond {
+    width: 318px;
+  }
+
+  .textWrapperSecond p {
+    color: var(--Regular, #262626);
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+  }
+
+  .textWrapperThird {
+    width: 318px;
+  }
+
+  .textWrapperThird p {
+    color: #8b8b8b;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+}

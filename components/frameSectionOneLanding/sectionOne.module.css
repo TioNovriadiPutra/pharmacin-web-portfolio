@@ -1,0 +1,117 @@
+.frame {
+  height: 996px;
+  width: 100%;
+  z-index: -1;
+  background-image: url("./../../public/backgroundLanding.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.overlap {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  height: 1000px;
+}
+.frame .dashboardKasir {
+  height: 385px;
+  width: 891px;
+}
+.frame .group {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 110px;
+  z-index: 1;
+}
+.frame .textWrapper {
+  color: #ffffff;
+  font-family: "Plus Jakarta Sans-Medium", Helvetica;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: center;
+  text-shadow: 0px 2px 10px #00000026;
+  width: 713px;
+}
+.frame .div {
+  color: #ffffff;
+  font-family: "Plus Jakarta Sans-Bold", Helvetica;
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: center;
+  text-shadow: 0px 2px 24px #00000026;
+  width: 812px;
+}
+.frame .ellipse {
+  border-radius: 699px/622.5px;
+  filter: blur(400px);
+  height: 400px;
+  left: 0;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.frame .divWrapper {
+  align-items: center;
+  background: linear-gradient(
+    180deg,
+    rgb(131.7, 213.56, 139.88) 0%,
+    rgba(64.79, 137.79, 124.24, 0.96) 89%,
+    rgba(41, 84, 151, 0.91) 100%
+  );
+  border-radius: 32px;
+  display: inline-flex;
+  gap: 10px;
+  justify-content: center;
+  overflow: hidden;
+  padding: 12px 24px;
+}
+
+.frame .textWrapperSecond {
+  color: #ffffff;
+  font-family: "Plus Jakarta Sans-SemiBold", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.groupWrapper{
+  display: flex;
+  width: 925px;
+  z-index: 1;
+  margin-top: 110px;
+}
+
+.frame .dashboardKasirWrapper {
+  -webkit-backdrop-filter: blur(96.49px) brightness(100%);
+  backdrop-filter: blur(96.49px) brightness(100%);
+  background-color: #c4c4c442;
+  border: 2px solid;
+  border-color: #ffffff28;
+  box-shadow: 0px 4px 24px #ffffff26;
+  height: 402px;
+  position: relative;
+}
+
+.frame .gradient {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.71) 100%
+  );
+  height: 71px;
+  z-index: 2;
+  width: 100%;
+}

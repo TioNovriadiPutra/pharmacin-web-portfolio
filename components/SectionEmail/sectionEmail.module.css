@@ -1,0 +1,134 @@
+.boxLastSection {
+  height: 568px;
+  width: 100%;
+  background: url('./../../public/Overlay.png'),linear-gradient(
+    420deg,
+    rgb(145.21, 190.19, 87.96) 0%,
+    rgb(125.39, 206.13, 160.28) 50%,
+    rgb(87.96, 165.65, 190.19) 100%
+  );
+  background-size: cover;
+  background-position: center;
+  opacity: 0.8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.frameLastSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.textWrapperFirst{
+  line-height: normal;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 36px;
+  width: 570px;
+}
+
+.textWrapperSecond{
+  line-height: normal;
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 400;
+  width: 457px;
+}
+
+.overlapForm{
+  height: 408px;
+  width: 348px;
+  background-color: white;
+  border-radius: 8px;;
+}
+
+.formWrapper{
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.labelForm{
+  display: flex;
+  flex-direction: column;
+}
+.inputForm{
+  border-radius: 8px;
+  background-color: #ffffff;
+  height: 50px;
+  width: 300px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  border: 1px solid;
+  border-color: #e7e8ec;
+}
+
+.formWrapper{
+  display: flex;
+  flex-direction: column;
+}
+
+.buttonForm{
+  background-color: #96bb77;
+  border-radius: 8px;
+  border: none;
+  height: 58px;
+  width: 300px;
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 400;
+  text-align: center;
+}
+
+@media (min-width: 360px) and (max-width: 768px) {
+  .boxLastSection {
+    height: 676px;
+    width: 100%;
+    background: url('./../../public/Overlay.png'),linear-gradient(
+      420deg,
+      rgb(145.21, 190.19, 87.96) 0%,
+      rgb(125.39, 206.13, 160.28) 50%,
+      rgb(87.96, 165.65, 190.19) 100%
+    );
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .textWrapperFirst{
+    line-height: normal;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 24px;
+    width: 320px;
+  }
+  
+  .textWrapperSecond{
+    line-height: normal;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 400;
+    width: 320px;
+  }
+  
+.frameLastSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.overlapForm{
+  height: 408px;
+  width: 320px;
+  background-color: white;
+  border-radius: 8px;;
+}
+}

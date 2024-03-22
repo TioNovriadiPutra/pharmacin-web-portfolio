@@ -1,0 +1,160 @@
+.box {
+  height: 592px;
+  width: 100%;
+}
+.box .group {
+  height: 592px;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+.box .overlapGroup {
+  background-color: #f9fbff;
+  height: 592px;
+  position: relative;
+  width: 100%;
+}
+.box .line {
+  height: 1px;
+  left: 110px;
+  object-fit: cover;
+  position: absolute;
+  top: 500px;
+  width: 1220px;
+}
+.box .divMain {
+  height: 150px;
+  left: 140px;
+  position: absolute;
+  top: 130px;
+  width: 310px;
+}
+.box .frame {
+  align-items: center;
+  display: inline-flex;
+  gap: 15px;
+  justify-content: center;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+.box .logo {
+  height: 38px;
+  object-fit: cover;
+  position: relative;
+  width: 37px;
+}
+.box .textPharmacin {
+  color: #b4b4b4;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 4.8px;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+.box .textLorem {
+  color: #8b8b8b;
+  font-family: "Plus Jakarta Sans-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 70px;
+  width: 308px;
+}
+.box .groupSecond {
+  height: 59px;
+  left: 538px;
+  position: absolute;
+  top: 130px;
+  width: 106px;
+  display: flex;
+  flex-direction: column;
+}
+.box .textGroupSecond {
+  color: var(--main);
+  font-family: "Plus Jakarta Sans-SemiBold", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  top: 0;
+}
+.box .textGroupSecondTentangKami {
+  color: #8a8a8a;
+  font-family: "Plus Jakarta Sans-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 39px;
+}
+.box .TextAllRight {
+  color: #b4b4b4;
+  font-family: "Plus Jakarta Sans-Regular", Helvetica;
+  font-size: 14px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  font-weight: 400;
+  /* left: 554px; */
+  letter-spacing: 0;
+  line-height: normal;
+  
+  /* position: absolute; */
+  text-align: center;
+  /* top: 540px; */
+}
+.box .groupThird {
+  height: 90px;
+  left: 730px;
+  position: absolute;
+  top: 130px;
+  width: 138px;
+}
+.box .textGroupThirdFitur {
+  color: #8a8a8a;
+  font-family: "Plus Jakarta Sans-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 70px;
+}
+
+.box .textGroupThirdSolusi {
+    color: #8a8a8a;
+    font-family: "Plus Jakarta Sans-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 70px;
+  }
+.box .frameSecond {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 14px;
+  left: 140px;
+  position: absolute;
+  top: 540px;
+}
+
+.box .imgSosmed {
+  height: 32px;
+  position: relative;
+  width: 32px;
+}
