@@ -50,7 +50,7 @@
     justify-content: space-around;
 }
 
-@media (max-width: 360px) {
+@media (min-width: 360px) and (max-width: 768px) {
     .frameFeatures{
         display: flex;
         flex-direction: column;

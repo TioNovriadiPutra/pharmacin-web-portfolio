@@ -14,7 +14,6 @@ const BoxGroupRight: React.FC<Props> = ({imgSrc,text1,text2}) => {
     return (
         <div className={style.boxFour}>
         <div className={style.frameSectionFour}>
-
           <div className={style.frameTextWrapperSectionFour}>
             <p className={style.textWrapperFirstFour}>
               {text1}
@@ -29,7 +28,6 @@ const BoxGroupRight: React.FC<Props> = ({imgSrc,text1,text2}) => {
             <div className={style.eclipseImgSectionFour}></div>
             <img src={imgSrc} alt="" />
           </div>
-
         </div>
       </div>
     );

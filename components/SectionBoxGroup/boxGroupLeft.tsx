@@ -29,7 +29,6 @@ const BoxGroupLeft: React.FC<Props> = ({
 
         <div className={style.frameTextWrapperSectionFive}>
           <p className={style.textWrapperFirstFive}>{text1}</p>
-
           <div className={style.textWrapperSecondFive}>{text2}</div>
 
           <div className={style.cekPoints}>

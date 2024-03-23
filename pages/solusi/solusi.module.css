@@ -29,3 +29,14 @@ margin: 0;
     margin-bottom: 100px;
     line-height: 46.5px;
 }
+
+@media (min-width: 360px) and (max-width: 768px) {
+    .frameSectionTwoFirst p{
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+        width: 320px;
+        margin-bottom: 10px;
+        line-height: 46.5px;
+    }
+}

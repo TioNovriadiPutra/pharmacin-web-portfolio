@@ -7,12 +7,12 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 
 .frameTextWrapperSectionFour {
   width: 593px;
   height: 130px;
-  margin-top: 273px;
   margin-left: 140px;
 }
 
@@ -34,8 +34,6 @@
 
 .frameImgAndGrd {
   height: 460px;
-  margin-top: 110px;
-  position: relative;
   
 }
 
@@ -61,4 +59,16 @@
   width :fit-content;
   z-index: 1;
   justify-content: flex-end;
+}
+@media (min-width: 360px) and (max-width: 768px) {
+  .frameSectionFour {
+    display: flex;
+    flex-direction: column;
+  }
+  .frameImgAndGrd img {
+    height: 349px;
+    width :289px;
+    z-index: 1;
+    justify-content: flex-end;
+  }
 }

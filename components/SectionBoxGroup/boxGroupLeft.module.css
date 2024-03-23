@@ -67,3 +67,63 @@
   display: flex;
   align-items: center;
 }
+
+@media (min-width: 360px) and (max-width: 768px) {
+  .frameSectionFive {
+    display: flex;
+    flex-direction: column;
+  }
+  .eclipseImgSectionFive {
+    background: linear-gradient(
+      420deg,
+      rgb(80.92, 174.26, 106.11) 0%,
+      rgb(41, 151, 137.8) 50%,
+      rgb(41, 84, 151) 100%
+    );
+    border-radius: 251px;
+    filter: blur(100px);
+    height: 200px;
+    position: absolute;
+    opacity: 0.8;
+    width: 500px;
+    z-index: -1;
+    justify-content: flex-start;
+  }
+  .textWrapperFirstFive {
+    color: var(--Regular, #262626);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 320px;
+
+  }
+  .frameTextWrapperSectionFive {
+    width: 320px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+  }
+  
+  .textWrapperSecondFive {
+    color: #8b8b8b;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 320px;
+  }
+
+  .frameImgAndGrdFive {
+    width: 502px;
+    height: 300px;
+  }
+  
+  .frameImgAndGrdFive img {
+    height: 260px;
+    width: 344px;
+    z-index: 1;
+  }
+}

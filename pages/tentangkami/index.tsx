@@ -5,11 +5,11 @@ import BoxGroupTentangKami from "./../../components/boxGroupSolusi/boxGroup";
 import SectionEmail from "./../../components/SectionEmail/sectionEmail";
 import backgroundTenangKami from "./../../public/BackgroundTentangKami.png";
 import { Parallax } from "react-parallax";
+import BoxVisi from "@/components/BoxVisi/BoxVisi";
 const tentangKami = () => {
 
   const sectionOne = () => {
     return (
-      
       <div className={style.boxSectionOne}>
           <div className={style.frameFirstBoxOne}>
             <p>
@@ -20,30 +20,6 @@ const tentangKami = () => {
     )
   }
   
-  const SectionTwo = () => {
-    return (
-      <div className={style.boxSectionTwo}>
-        <div className={style.frameSectionTwo}>
-          <div className={style.textWrapperFirstTwo}>
-            <p>Kami Membangun Masa Depan Pelayanan Kesehatan Yang Lebih Baik</p>
-          </div>
-
-          <div className={style.textWrapperSecondTwo}>
-            <p>
-              Didorong oleh semangat untuk meningkatkan kualitas dan efisiensi
-              pelayanan kesehatan, kami membangun perusahaan yang berfokus pada
-              pengembangan sistem manajemen pelayanan kesehatan yang inovatif
-              dan terdepan.
-              <br /> <br />
-              Bersama-sama, kami membangun masa depan pelayanan kesehatan yang
-              lebih baik, di mana teknologi dan keahlian manusia bersatu untuk
-              memberikan pelayanan yang optimal bagi semua orang.
-            </p>
-          </div>
-        </div>
-      </div>
-    );
-  };
 
   const SectionThree = () => {
     return (
@@ -88,7 +64,7 @@ const tentangKami = () => {
             />
             <BoxGroupTentangKami
               text1="Giving"
-              textDesc="Memberikan sumber daya edukasi kepada masyarakatuntuk berperan aktif dalam menjaga kesehatan diri sendiri"
+              textDesc="Memberikan sumber daya edukasi kepada masyarakat untuk berperan aktif dalam menjaga kesehatan diri sendiri"
             />
           </div>
         </div>
@@ -98,15 +74,15 @@ const tentangKami = () => {
 
   const combineSection = () => {
     return (
-      <div className={style.combineSection}>
-        {sectionOne()}
-        <Parallax  bgImage={backgroundTenangKami.src} strength={200}>
-          <div style={{ height: "562px" }}>
-          </div>
-        </Parallax>
-        {SectionTwo()}
-        {SectionThree()}
-        <SectionEmail />
+      <div className={style.combineSection} style={{ width: "100%" }}>
+      {sectionOne()}
+      <Parallax  bgImage={backgroundTenangKami.src} strength={200}>
+        <div style={{ height: "562px" }}>
+        </div>
+      </Parallax>
+      <BoxVisi></BoxVisi>
+      {/* {SectionThree()} */}
+      <SectionEmail />
       </div>
     );
   };
