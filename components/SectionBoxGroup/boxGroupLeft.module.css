@@ -69,6 +69,11 @@
 }
 
 @media (min-width: 360px) and (max-width: 768px) {
+  .boxFive {
+    width: 100%;
+    height: fit-content;
+  }
+  
   .frameSectionFive {
     display: flex;
     flex-direction: column;
@@ -82,10 +87,10 @@
     );
     border-radius: 251px;
     filter: blur(100px);
-    height: 200px;
+    height: 251px;
     position: absolute;
     opacity: 0.8;
-    width: 500px;
+    width: 300px;
     z-index: -1;
     justify-content: flex-start;
   }
@@ -100,11 +105,11 @@
   }
   .frameTextWrapperSectionFive {
     width: 320px;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
+    height: fit-content;
+    margin-right: 0px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
   }
   
   .textWrapperSecondFive {

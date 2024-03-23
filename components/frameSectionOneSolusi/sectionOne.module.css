@@ -102,3 +102,44 @@ margin: 0;
 
   }
 }
+@media (min-width: 360px) and (max-width: 768px) {
+  .textWrapperFirst{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .textWrapperFirst p {
+    color: white;
+    font-size: 64px;
+    font-weight: 700;
+    margin: 0;
+  }
+  
+  .textWrapperSecond p {
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+    padding:20px 0px;
+    
+  }
+  .iconPositionFirst{
+    display: none;
+  }
+  .cashierIconPosition{
+    display: none;
+  }
+ 
+  .databaseIconPosition{
+    display: none;
+  }
+  .frameImg img {
+    width: 400px;
+    height: 200px;  
+    position: relative;
+    bottom: -1px;
+
+  }
+}

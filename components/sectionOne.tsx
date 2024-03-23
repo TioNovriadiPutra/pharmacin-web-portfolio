@@ -19,11 +19,11 @@ export const Frame = (): JSX.Element => {
               Batas
             </p>
             <p className={styles.textWrapper}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-              mollis varius finibus. Duis faucibus consectetur dictum.
+            Wujudkan pelayanan kesehatan yang lebih efisien, efektif, dan berorientasi pada
+             solusi terdepan untuk mengoptimalkan pengelolaan faskes Anda.
             </p>
             <div className={styles.divWrapper}>
-              <div className={styles.textWrapperSecond}>Mulai Sekarang</div>
+              <div className={styles.textWrapperSecond}>Lihat Penawaran</div>
             </div>
           </div>
      

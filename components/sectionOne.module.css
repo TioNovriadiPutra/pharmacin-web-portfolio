@@ -173,11 +173,85 @@
 
 @media (min-width: 360px) and (max-width: 768px){
   .frame {
-    height: 996px;
+    height: 100vh;
     overflow: hidden;
     width: 100%;
-    background-image: url("./../public/backgroundLanding.png");
+    background-image: url("./../public/backgroundLandingMobile.png");
     background-size: cover;
     background-repeat: no-repeat;
+  }
+  .frame .group {
+    height: 380px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    top: 789px;
+    width: 360px;
+  } 
+
+  .frame .div {
+    color: #ffffff;
+    font-family: "Plus Jakarta Sans-Bold", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    text-shadow: 0px 2px 24px #00000026;
+    top: 0;
+    width: 286px;
+  }
+
+  .frame .textWrapper {
+    color: #ffffff;
+    font-family: "Plus Jakarta Sans-Medium", Helvetica;
+    font-size: 14px;
+    font-weight: 500;
+    left: 50%;
+    transform: translateX(-50%);
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    text-shadow: 0px 2px 10px #00000026;
+    top: 180px;
+    width: 292px;
+  }
+  .frame .divWrapper {
+    align-items: center;
+    background: linear-gradient(109deg, #84D68C -8.25%, rgba(65, 138, 124, 0.96) 171.19%, rgba(41, 84, 151, 0.91) 193.37%);
+    border-radius: 32px;
+    display: inline-flex;
+    gap: 10px;
+    justify-content: center;
+    left: 50%;
+    transform: translateX(-50%);
+    overflow: hidden;
+    padding: 12px 24px;
+    position: absolute;
+    top: 336px;
+  }
+  .frame .dashboardKasirWrapper {
+    -webkit-backdrop-filter: blur(96.49px) brightness(100%);
+    backdrop-filter: blur(96.49px) brightness(100%);
+    background-color: #c4c4c442;
+    border: 2px solid;
+    border-color: #ffffff28;
+    box-shadow: 0px 4px 14px #ffffff26;
+    height: 18px;
+    position: relative;
+  }
+  
+  .frame .dashboardKasir {
+    height: 180px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    top: 15px;
+    width: 320px;
   }
 }

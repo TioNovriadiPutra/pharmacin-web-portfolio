@@ -68,17 +68,13 @@ const LandingPage = () => {
 
           <div className={style.textWrapperSecond}>
             <p>
-              Kami mengembangkan sistem pelayanan manajemen kesehatan yang
-              dirancang untuk membantu para profesional
+            Kelola Semua kebutuhan anda melalui satu sistem
             </p>
           </div>
 
           <div className={style.textWrapperThird}>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Mollitia, amet. Dolorem tempora porro quisquam dignissimos quam,
-              minus adipisci laudantium fugiat, vero sit illo dolorum deleniti
-              ducimus! Amet illo quia officiis.
+            Kami hadir sebagai solusi yang membantu klinik anda untuk meningkatkan kualitas pelayanan
             </p>
           </div>
         </div>

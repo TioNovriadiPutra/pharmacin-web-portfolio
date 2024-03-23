@@ -1,7 +1,9 @@
 .boxSectionOne{
   width: 100%;
 }
-
+.backgroundTentangKamiParallax{
+  height: 562px;
+}
 .frameFirstBoxOne{
   margin-left: 10%;
   padding-top: 109px;
@@ -87,14 +89,46 @@
   text-align: left;
   width: 320px;
 }
- /* Section Two */
-
-
-
 /* Section Three */
+.boxFirstSection{
+  height: fit-content;
+}
 .overlapGroup {
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
+.backgroundTentangKamiParallax{
+  height: 397px;
+}
+.textWrapper {
+  font-size: 16px;
+  font-weight: 600;
+}
+.textWrapperSecond {
+  height: 40px;
+  width: 320px;
+  text-align: center;
+}
+
+.textWrapperSecond p {
+  color: #8a8a8a;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.frameFirstSecond{
+  width: 320px;
+
+}
+
+.overlapGroupFirst {
+  margin-bottom: 135px;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
 }

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from 'react';
 import DefaultLayoutSecond from "@/components/DefaultLayoutS";
 import style from "./tentangkami.module.css";
 import BoxGroupTentangKami from "./../../components/boxGroupSolusi/boxGroup";
@@ -24,7 +24,6 @@ const tentangKami = () => {
   const SectionThree = () => {
     return (
       <div className={style.boxFirstSection}>
-
         <div className={style.parentFirst}>
           <div className={style.overlapGroupFirst}>
             <p className={style.textWrapper}>
@@ -73,15 +72,34 @@ const tentangKami = () => {
   };
 
   const combineSection = () => {
+    const [strength, setStrength] = useState(500); // Default strength
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth <= 768) {
+        setStrength(100); 
+      } else {
+        setStrength(200); 
+      }
+    };
+
+    window.addEventListener('resize', handleResize);
+    handleResize(); 
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
     return (
       <div className={style.combineSection} style={{ width: "100%" }}>
       {sectionOne()}
-      <Parallax  bgImage={backgroundTenangKami.src} strength={200}>
-        <div style={{ height: "562px" }}>
+      <Parallax bgImage={backgroundTenangKami.src} strength={strength}>
+        <div className={style.backgroundTentangKamiParallax}>
         </div>
       </Parallax>
       <BoxVisi></BoxVisi>
-      {/* {SectionThree()} */}
+      {SectionThree()}
       <SectionEmail />
       </div>
     );

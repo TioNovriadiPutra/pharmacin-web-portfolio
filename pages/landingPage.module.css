@@ -148,7 +148,7 @@
   }
 
   .boxSectionTwo {
-    height: 760px;
+    height: fit-content;
     width: 100%;
   }
   
@@ -183,16 +183,27 @@
     line-height: 20px;
     color: #656565;
   }
-
+  .listFitur {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 23px;
+    color: #262626;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    width: 320px;
+  }
 
   /* Section Three */
   .boxSectionThree {
-    height: 286px;
+    height: fit-content;
     width: 100%;
     margin-top: 164px;
   }
 
   .frameSectionThree {
+    background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
