@@ -13,6 +13,8 @@ export const Frame = (): JSX.Element => {
         <div className={styles.ellipse}>
         </div>
 
+
+
           <div className={styles.group}>
             <p className={styles.div}>
               Transformasi Pemberian Layanan Kesehatan: Rasakan Keunggulan Tanpa
@@ -26,7 +28,7 @@ export const Frame = (): JSX.Element => {
               <div className={styles.textWrapperSecond}>Lihat Penawaran</div>
             </div>
           </div>
-     
+
     
         <div className={styles.groupWrapper}>
           <div className={styles.dashboardKasirWrapper}>

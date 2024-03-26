@@ -29,7 +29,6 @@ const NavbarTest: React.FC = () => {
         <div className={style.navbar}>
             <div onClick={moveToTentangKami} className={style.textWrapper}>Tentang Kami</div>
             <div onClick={moveToSolusi} className={style.textWrapper}>Solusi</div>
-         
             <div className={style.textWrapper}>Harga</div>
         </div>
 

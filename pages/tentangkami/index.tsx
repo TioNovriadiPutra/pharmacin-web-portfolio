@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import DefaultLayoutSecond from "@/components/DefaultLayoutS";
 import style from "./tentangkami.module.css";
 import BoxGroupTentangKami from "./../../components/boxGroupSolusi/boxGroup";
 import SectionEmail from "./../../components/SectionEmail/sectionEmail";
 import backgroundTenangKami from "./../../public/BackgroundTentangKami.png";
 import { Parallax } from "react-parallax";
 import BoxVisi from "@/components/BoxVisi/BoxVisi";
+import DefaultLayout from "@/components/DefautLayout";
+
 const tentangKami = () => {
 
   const sectionOne = () => {
@@ -72,7 +73,7 @@ const tentangKami = () => {
   };
 
   const combineSection = () => {
-    const [strength, setStrength] = useState(500); // Default strength
+    const [strength, setStrength] = useState(500);
 
   useEffect(() => {
     const handleResize = () => {
@@ -108,7 +109,7 @@ const tentangKami = () => {
   return (
     <div>
       <title>Pharmacin</title>
-      <DefaultLayoutSecond>{combineSection()}</DefaultLayoutSecond>
+      <DefaultLayout>{combineSection()}</DefaultLayout>
     </div>
   );
 };

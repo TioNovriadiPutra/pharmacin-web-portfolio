@@ -114,10 +114,10 @@
   }
   .frameImgAndGrd{
     height: 349px;
+
   }
   .frameImgAndGrd img {
     height: 349px;
-    width :fit-content;
     z-index: 1;
   }
 }

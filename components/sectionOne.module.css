@@ -185,7 +185,7 @@
     left: 50%;
     transform: translateX(-50%);
     position: absolute;
-    top: 789px;
+    top: 750px;
     width: 360px;
   } 
 
@@ -218,7 +218,7 @@
     position: absolute;
     text-align: center;
     text-shadow: 0px 2px 10px #00000026;
-    top: 180px;
+    top: 150px;
     width: 292px;
   }
   .frame .divWrapper {
@@ -233,7 +233,7 @@
     overflow: hidden;
     padding: 12px 24px;
     position: absolute;
-    top: 336px;
+    top: 280px;
   }
   .frame .dashboardKasirWrapper {
     -webkit-backdrop-filter: blur(96.49px) brightness(100%);
@@ -241,17 +241,24 @@
     background-color: #c4c4c442;
     border: 2px solid;
     border-color: #ffffff28;
-    box-shadow: 0px 4px 14px #ffffff26;
-    height: 18px;
+    box-shadow: 0px 4px 24px #ffffff26;
+    height: 190px;
     position: relative;
   }
-  
+  .frame .groupWrapper {
+    height: 402px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    top: 1090px;
+    width: 340px;
+  }
   .frame .dashboardKasir {
     height: 180px;
     left: 50%;
     transform: translateX(-50%);
     position: absolute;
-    top: 15px;
+    top: 7px;
     width: 320px;
   }
 }

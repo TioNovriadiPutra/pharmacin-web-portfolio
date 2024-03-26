@@ -1,7 +1,7 @@
 import React, { ReactNode, useEffect, useState } from "react";
 import { Navbar } from "./Navbar";
-import { FooterContent } from "./Footer";
 import NavbarTest from "./NavbarTest/NavbarTest";
+import Footer from "./footer/footer";
 interface DefaultLayoutProps {
   children: ReactNode;
 }
@@ -25,8 +25,9 @@ const DefaultLayout: React.FC<DefaultLayoutProps> = ({ children }) => {
   return (
     <div className="default-layout">
       {navbarComponent}
+      
       <main>{children}</main>
-      <FooterContent></FooterContent>
+      <Footer></Footer>
     </div>
   );
 };
