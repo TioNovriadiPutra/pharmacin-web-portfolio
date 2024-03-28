@@ -4,7 +4,6 @@ import BoxGroupTentangKami from "./../../components/boxGroupSolusi/boxGroup";
 import SectionEmail from "./../../components/SectionEmail/sectionEmail";
 import backgroundTenangKami from "./../../public/BackgroundTentangKami.png";
 import { Parallax } from "react-parallax";
-import BoxVisi from "@/components/BoxVisi/BoxVisi";
 import DefaultLayout from "@/components/DefautLayout";
 
 const tentangKami = () => {
@@ -18,6 +17,30 @@ const tentangKami = () => {
             </p>
           </div>
       </div>
+    )
+  }
+
+  const sectionTwo = () => {
+    return (
+      <div className={style.boxSectionTwo}>
+      <div className={style.frameSectionTwo}>
+        <div className={style.textWrapperFirstTwo}>
+          <p>Kami Membangun Masa Depan Pelayanan Kesehatan Yang Lebih Baik</p>
+        </div>
+        <div className={style.textWrapperSecondTwo}>
+          <p>
+            Didorong oleh semangat untuk meningkatkan kualitas dan efisiensi
+            pelayanan kesehatan, kami membangun perusahaan yang berfokus pada
+            pengembangan sistem manajemen pelayanan kesehatan yang inovatif dan
+            terdepan.
+            <br /> <br />
+            Bersama-sama, kami membangun masa depan pelayanan kesehatan yang
+            lebih baik, di mana teknologi dan keahlian manusia bersatu untuk
+            memberikan pelayanan yang optimal bagi semua orang.
+          </p>
+        </div>
+      </div>
+    </div>
     )
   }
   
@@ -99,7 +122,8 @@ const tentangKami = () => {
         <div className={style.backgroundTentangKamiParallax}>
         </div>
       </Parallax>
-      <BoxVisi></BoxVisi>
+      {/* <BoxVisi></BoxVisi> */}
+      {sectionTwo()}
       {SectionThree()}
       <SectionEmail />
       </div>

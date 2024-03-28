@@ -34,7 +34,7 @@
 .groupSecond {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 20px;  
 }
 
 .groupThird {
@@ -72,12 +72,7 @@
   width: 308px;
 }
 
-.box .groupSecond {
-  height: 59px;
-  width: 106px;
-  display: flex;
-  flex-direction: column;
-}
+
 
 .box .textGroupSecond {
   color: var(--main);
@@ -170,10 +165,7 @@
   .groupFrameSecond {
     display: none;
   }
-  .groupSecond{
-    margin: 0;
-  }
-  
+ 
   .frameSecond{
     position: relative;
   }
@@ -191,18 +183,15 @@
     width: 100%;
   }
   .textGroupSecond{
+    color: var(--Main, #295497);
+    font-family: "Plus Jakarta Sans";
     font-size: 16px;
+    font-style: normal;
     font-weight: 600;
+    line-height: normal;
+    border-bottom: solid 1px #E4E4E4;
   }
 
-  .dropdownHidden {
-    display: none;
-  }
-
-  .dropdownVisible {
-    display: block;
-  }
-  
   .dropdownVisible, .dropdownHidden {
     transition: max-height 0.3s ease, opacity 0.3s ease;
     overflow: hidden;

@@ -1,7 +1,7 @@
 .navbarMain {
   height: 84px;
   position: fixed;
-  background-color: white; 
+  background-color: white;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   width: 100%;
   z-index: 1100;
@@ -18,11 +18,10 @@
   justify-content: space-around;
   width: 50%;
   cursor: pointer;
-  
 }
 
 .navbarMain .textWrapper {
-  color: #B5B5B5;
+  color: #b5b5b5;
   font-family: "Plus Jakarta Sans-SemiBold", Helvetica;
   font-size: 16px;
   font-weight: 500;
@@ -76,8 +75,55 @@
 
 .navbarMain .frame {
   align-items: center;
-  background-color: #58BE62;
+  background-color: #58be62;
   border: none;
   border-radius: 16px;
   padding: 12px 24px;
+}
+.hamburger {
+  display: none;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+@media (min-width: 360px) and (max-width: 768px) {
+  .navbarMain{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .frameTwo{
+    padding-left: 20px;
+  }
+  .navbar {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+    padding-right: 20px;
+  }
+  .frame {
+    display: none;
+  }
+  .navbarMain .textWrapperTwo {
+    color: #295497;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3.36px;
+  }
+
+  .navbarMain .logo {
+    height: 32px;
+    object-fit: cover;
+    position: relative;
+    width: 32px;
+  }
 }
