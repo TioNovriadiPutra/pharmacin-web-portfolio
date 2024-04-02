@@ -1,69 +1,67 @@
-.box{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 262px;
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 262px;
 }
 
-.textWrapper{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px;
-    font-size: 24px;
-    font-weight: 500;
-    text-align: center;
-    margin-bottom: 0;
+.textWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 0;
 }
 
-.textWrapperSecond{
-    text-align: center;
-    align-items: center;
-    color: #8a8a8a;
-    font-size: 16px;
-    font-weight: 400;
-    margin-top: 0;
+.textWrapperSecond {
+  text-align: center;
+  align-items: center;
+  color: #8a8a8a;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 0;
 }
 
 /* Features Section */
 
-.boxSectionFeatures{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 50px;
-    padding-bottom: 50px;
-    width: 100%;
+.boxSectionFeatures {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
+  padding-bottom: 50px;
+  width: 100%;
 }
 
-.frameFeatures{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-bottom: 30px;
+.frameFeatures {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 30px;
 }
 
-.frameFeaturesLast{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+.frameFeaturesLast {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 @media (min-width: 360px) and (max-width: 768px) {
-    .frameFeatures{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin-bottom: 30px;
-        align-items: center;
-    }
-    .frameFeaturesLast{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+  .frameFeatures {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 30px;
+    align-items: center;
+  }
+  .frameFeaturesLast {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
-
-

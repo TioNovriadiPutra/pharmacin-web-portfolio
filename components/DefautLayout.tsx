@@ -2,7 +2,6 @@ import React, { ReactNode, useEffect, useState } from "react";
 import { Navbar } from "./Navbar";
 import NavbarTest from "./NavbarTest/NavbarTest";
 import Footer from "./footer/footer";
-import NavbarResponsive from "./navbarResponsive/navbarResponsive";
 
 interface DefaultLayoutProps {
   children: ReactNode;

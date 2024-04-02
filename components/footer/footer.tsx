@@ -26,29 +26,66 @@ export const Footer: React.FC = () => {
         </div>
 
         <div className={styles.groupSecond}>
-          <div className={styles.textGroupSecond} onClick={() => setDropdownVisible(!dropdownVisible)}>Perusahaan</div>
-          <div className={dropdownVisible ? styles.dropdownVisible : styles.dropdownHidden}>
-            <div className={styles.textGroupSecondTentangKami}>Tentang Kami</div>
+          <div
+            className={styles.textGroupSecond}
+            onClick={() => setDropdownVisible(!dropdownVisible)}
+          >
+            Perusahaan
+          </div>
+          <div
+            className={
+              dropdownVisible ? styles.dropdownVisible : styles.dropdownHidden
+            }
+          >
+            <div className={styles.textGroupSecondTentangKami}>
+              Tentang Kami
+            </div>
           </div>
         </div>
 
         <div className={styles.groupThird}>
-          <div className={styles.textGroupSecond} onClick={() => setDropdownVisibleSecond(!dropdownVisibleSecond)}>Solusi</div>
-          <div className={dropdownVisibleSecond ? styles.dropdownVisible : styles.dropdownHidden}>
-            <div className={styles.textGroupSecondTentangKami}> SIMK - Pharmacin </div>
+          <div
+            className={styles.textGroupSecond}
+            onClick={() => setDropdownVisibleSecond(!dropdownVisibleSecond)}
+          >
+            Solusi
+          </div>
+          <div
+            className={
+              dropdownVisibleSecond
+                ? styles.dropdownVisible
+                : styles.dropdownHidden
+            }
+          >
+            <div className={styles.textGroupSecondTentangKami}>
+              {" "}
+              SIMK - Pharmacin{" "}
+            </div>
             <div className={styles.textGroupSecondTentangKami}>Fitur</div>
           </div>
         </div>
 
         <div className={styles.groupFourth}>
-          <div className={styles.textGroupSecond} onClick={() => setDropdownVisibleThird(!dropdownVisibleThird)}>Produk</div>
-          <div className={dropdownVisibleThird ? styles.dropdownVisible : styles.dropdownHidden}>
-          <div className={styles.textGroupSecondTentangKami}>Harga</div>
+          <div
+            className={styles.textGroupSecond}
+            onClick={() => setDropdownVisibleThird(!dropdownVisibleThird)}
+          >
+            Produk
+          </div>
+          <div
+            className={
+              dropdownVisibleThird
+                ? styles.dropdownVisible
+                : styles.dropdownHidden
+            }
+          >
+            <div className={styles.textGroupSecondTentangKami}>Harga</div>
           </div>
         </div>
       </div>
 
       <div className={styles.frameSecond}>
+        <hr className={styles.hrSecond} />
         <div className={styles.groupSosmed}>
           <img className={styles.imgSosmed} alt="" src={InstagramLogo.src} />
           <img className={styles.imgSosmed} alt="" src={LinkedinLogo.src} />
@@ -58,11 +95,6 @@ export const Footer: React.FC = () => {
         <p className={styles.TextAllRight}>
           © 2024 Pharmacin Jaya Abadi - All Rights Reserved
         </p>
-
-        <div className={styles.groupFrameSecond}>
-          <p className={styles.textFrameSecond}>Privacy Policy</p>
-          <p className={styles.textFrameSecond}>Terms and Condition</p>
-        </div>
       </div>
     </div>
   );

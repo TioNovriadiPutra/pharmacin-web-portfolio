@@ -9,7 +9,7 @@
 
 .frame .overlap {
   height: 1751px;
-  position: relative; 
+  position: relative;
   top: -635px;
   display: flex;
   align-items: center;
@@ -28,8 +28,6 @@
   height: 1631px;
   position: relative;
 }
-
-
 
 .frame .img {
   height: 435px;
@@ -70,8 +68,7 @@
   position: absolute;
   top: 789px;
   width: 800px;
-} 
- 
+}
 
 .frame .textWrapper {
   color: #ffffff;
@@ -105,7 +102,12 @@
 
 .frame .divWrapper {
   align-items: center;
-  background: linear-gradient(109deg, #84D68C -8.25%, rgba(65, 138, 124, 0.96) 171.19%, rgba(41, 84, 151, 0.91) 193.37%);
+  background: linear-gradient(
+    109deg,
+    #84d68c -8.25%,
+    rgba(65, 138, 124, 0.96) 171.19%,
+    rgba(41, 84, 151, 0.91) 193.37%
+  );
   border-radius: 32px;
   display: inline-flex;
   gap: 10px;
@@ -171,7 +173,7 @@
   width: 100%;
 }
 
-@media (min-width: 360px) and (max-width: 768px){
+@media (min-width: 360px) and (max-width: 768px) {
   .frame {
     height: 100vh;
     overflow: hidden;
@@ -187,7 +189,7 @@
     position: absolute;
     top: 750px;
     width: 360px;
-  } 
+  }
 
   .frame .div {
     color: #ffffff;
@@ -223,7 +225,12 @@
   }
   .frame .divWrapper {
     align-items: center;
-    background: linear-gradient(109deg, #84D68C -8.25%, rgba(65, 138, 124, 0.96) 171.19%, rgba(41, 84, 151, 0.91) 193.37%);
+    background: linear-gradient(
+      109deg,
+      #84d68c -8.25%,
+      rgba(65, 138, 124, 0.96) 171.19%,
+      rgba(41, 84, 151, 0.91) 193.37%
+    );
     border-radius: 32px;
     display: inline-flex;
     gap: 10px;

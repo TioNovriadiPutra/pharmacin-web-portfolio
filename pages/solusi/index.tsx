@@ -9,51 +9,62 @@ import kasirSolusi from "@/public/KasirSolusi.png";
 import SectionEmail from "@/components/SectionEmail/sectionEmail";
 import SectionOneSolusi from "@/components/frameSectionOneSolusi/sectionOne";
 
-const solusiPage = () => {
-  const section2 = () => {
+const SolusiPage = () => {
+  const Section2 = () => {
     return (
       <div className={style.boxSectionTwo}>
         <div className={style.frameSectionTwoFirst}>
           <p>Modul yang Dirancang Untuk Meningkatkan Efisiensi Pelayanan</p>
         </div>
         <div className={style.frameSectionTwoSecond}>
-          <FeaturesSectionComponent></FeaturesSectionComponent>
+          <FeaturesSectionComponent />
         </div>
       </div>
     );
   };
 
-  const combineSection = () => {
+  const CombineSection = () => {
     let text2Right = (
-     <ul>
-      <li>Simpan semua informasi pasien di satu tempat, mudah diakses oleh staf yang berwenang</li>
-      <li>Catat riwayat kesehatan pasien secara digital, membantu dokter dalam memberikan diagnosis dan pengobatan yang tepat</li>
-     </ul>
-    );
-    
-      let text2Left = (
       <ul>
-       <li> Penagihan dapat dilakukan secara otomatis, sehingga menghemat waktu dan tenaga</li>
-       <li>Meningkatkan akurasi pencatatan data, sehingga meminimalisir kesalahan</li>
+        <li>
+          Simpan semua informasi pasien di satu tempat, mudah diakses oleh staf
+          yang berwenang
+        </li>
+        <li>
+          Catat riwayat kesehatan pasien secara digital, membantu dokter dalam
+          memberikan diagnosis dan pengobatan yang tepat
+        </li>
       </ul>
-     );
+    );
 
+    let text2Left = (
+      <ul>
+        <li>
+          {" "}
+          Penagihan dapat dilakukan secara otomatis, sehingga menghemat waktu
+          dan tenaga
+        </li>
+        <li>
+          Meningkatkan akurasi pencatatan data, sehingga meminimalisir kesalahan
+        </li>
+      </ul>
+    );
 
     return (
       <div>
-        <SectionOneSolusi></SectionOneSolusi>
+        <SectionOneSolusi />
         <BoxGroupRight
           imgSrc={dashboard.src}
           text1="Memberikan akses informasi mudah dan cepat"
           text2={text2Right}
-          />
+        />
         <BoxGroupLeft
           imgstrg={kasirSolusi.src}
           text1="Tingkatkan kualitas perawatan dengan Rekam Medis Elektronik"
           text2={text2Left}
-        ></BoxGroupLeft>
-        {section2()}
-        <SectionEmail></SectionEmail>
+        />
+        <Section2 />
+        <SectionEmail />
       </div>
     );
   };
@@ -61,9 +72,11 @@ const solusiPage = () => {
   return (
     <div>
       <title>Pharmacin</title>
-      <DefaultLayout>{combineSection()}</DefaultLayout>
+      <DefaultLayout>
+        <CombineSection />
+      </DefaultLayout>
     </div>
   );
 };
 
-export default solusiPage;
+export default SolusiPage;

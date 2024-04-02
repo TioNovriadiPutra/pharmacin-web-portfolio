@@ -105,4 +105,133 @@
   background-color: #58BE62; 
   border: none;
 }
+.hamburger {
+  display: none;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.nav_elements {
+  display: none;
+}
 
+@media (min-width: 360px) and (max-width: 768px) {
+  .navbarMain {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .frameTwo {
+    padding-left: 20px;
+  }
+  .navbar {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+    padding-right: 20px;
+  }
+  .frame {
+    display: none;
+  }
+  .navbarMain .textWrapperTwo {
+    color: #295497;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3.36px;
+  }
+
+  .navbarMain .logo {
+    height: 32px;
+    object-fit: cover;
+    position: relative;
+    width: 32px;
+  }
+  @keyframes grow-shrink {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  .hamburger_clicked {
+    animation: grow-shrink 0.5s ease;
+  }
+  .nav_elements {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 80px;
+    background-color: white;
+    width: 0px;
+    height: 453px;
+    transition: all 0.3s ease-in;
+    overflow: hidden;
+    z-index: 2;
+  }
+
+  .nav_elements.active {
+    width: 100%;
+  }
+
+  .nav_elements ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    font-size: 24px;
+    font-weight: 600;
+    color: #b1b1b1;
+  }
+
+  .nav_elements ul li {
+    margin-right: unset;
+    margin-top: 22px;
+  }
+
+  .frameSecond {
+    display: flex;
+    flex-direction: column;
+    height: 110px;
+    position: relative;
+    top: 26%;
+    width: 100%;
+  }
+  .imgSosmed {
+    height: 32px;
+    width: 32px;
+  }
+
+  .groupSosmed {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+    top: 30%;
+  }
+  .TextAllRight {
+    color: #b4b4b4;
+    font-family: "Plus Jakarta Sans-Regular", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+  }
+}

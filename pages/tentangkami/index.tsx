@@ -6,9 +6,9 @@ import backgroundTenangKami from "./../../public/BackgroundTentangKami.png";
 import { Parallax } from "react-parallax";
 import DefaultLayout from "@/components/DefautLayout";
 
-const tentangKami = () => {
+const TentangKamiPage = () => {
 
-  const sectionOne = () => {
+  const SectionOne = () => {
     return (
       <div className={style.boxSectionOne}>
           <div className={style.frameFirstBoxOne}>
@@ -20,7 +20,7 @@ const tentangKami = () => {
     )
   }
 
-  const sectionTwo = () => {
+  const SectionTwo = () => {
     return (
       <div className={style.boxSectionTwo}>
       <div className={style.frameSectionTwo}>
@@ -44,7 +44,6 @@ const tentangKami = () => {
     )
   }
   
-
   const SectionThree = () => {
     return (
       <div className={style.boxFirstSection}>
@@ -95,7 +94,7 @@ const tentangKami = () => {
     );
   };
 
-  const combineSection = () => {
+  const CombineSection = () => {
     const [strength, setStrength] = useState(500);
 
   useEffect(() => {
@@ -117,14 +116,15 @@ const tentangKami = () => {
 
     return (
       <div className={style.combineSection} style={{ width: "100%" }}>
-      {sectionOne()}
+      <SectionOne />
       <Parallax bgImage={backgroundTenangKami.src} strength={strength}>
-        <div className={style.backgroundTentangKamiParallax}>
-        </div>
+        <div
+        className={style.backgroundTentangKamiParallax}
+        style={{ backgroundSize: "contain", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}
+        ></div>
       </Parallax>
-      {/* <BoxVisi></BoxVisi> */}
-      {sectionTwo()}
-      {SectionThree()}
+      <SectionTwo />
+      <SectionThree />
       <SectionEmail />
       </div>
     );
@@ -133,9 +133,11 @@ const tentangKami = () => {
   return (
     <div>
       <title>Pharmacin</title>
-      <DefaultLayout>{combineSection()}</DefaultLayout>
+      <DefaultLayout>
+        <CombineSection />      
+      </DefaultLayout>
     </div>
   );
 };
 
-export default tentangKami;
+export default TentangKamiPage;

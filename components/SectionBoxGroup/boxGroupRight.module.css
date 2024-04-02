@@ -34,6 +34,7 @@
 
 .frameImgAndGrd {
   height: 460px;
+  margin-top: 70px;
   
 }
 
@@ -114,10 +115,13 @@
   }
   .frameImgAndGrd{
     height: 349px;
+    margin-top: 0px;
 
   }
   .frameImgAndGrd img {
     height: 349px;
     z-index: 1;
+    position: absolute;
+    right: 1px;
   }
 }

@@ -12,53 +12,51 @@ import FolderIcon from "@/components/iconSolusi/folder";
 import dashboardLeft from "../public/DashboardLeft.png";
 import kasirRight from "../public/kasirRight.png";
 const LandingPage = () => {
-  const sectionTwo = () => {
+  const SectionTwo = () => {
     return (
       <div className={style.boxSectionTwo}>
-          <div className={style.sectionTwoMain}>
-            <div>
-              <img className={style.imgStyle} src={femaledoc.src} alt="" />
+        <div className={style.sectionTwoMain}>
+          <div>
+            <img className={style.imgStyle} src={femaledoc.src} alt="" />
+          </div>
+
+          <div className={style.serviceMain}>
+            <div className={style.servicePharmacin}>
+              <p>Kenapa Pharmacin?</p>
             </div>
 
-            <div className={style.serviceMain}>
-              <div className={style.servicePharmacin}>
-                <p>Kenapa Pharmacin?</p>
-              </div>
+            <div className={style.middleSectionTwo}>
+              <p>Kami menyediakan kebutuhan dalam mengelola klinik </p>
+            </div>
 
-              <div className={style.middleSectionTwo}>
-                <p>Kami menyediakan kebutuhan dalam mengelola klinik </p>
-              </div>
+            <div className={style.middleSectionUnderTwo}>
+              <p>
+                Pharmacin hadir sebagai solusi dalam memenuhi setiap kebutuhan
+                dalam mengelola sumber daya dan pelayanan sebuah klinik
+              </p>
+            </div>
 
-              <div className={style.middleSectionUnderTwo}>
-                <p>
-                  Pharmacin hadir sebagai solusi dalam memenuhi setiap kebutuhan
-                  dalam mengelola sumber daya dan pelayanan sebuah klinik
-                </p>
+            <div className={style.listFitur}>
+              <div className={style.listFiturItem}>
+                <LikeShapesIcon></LikeShapesIcon>
+                <p>Rekam medis elektronik yang sesuai standar</p>
               </div>
-
-              <div className={style.listFitur}>
-                <div className={style.listFiturItem}>
-                  <LikeShapesIcon></LikeShapesIcon>
-                  <p>Rekam medis elektronik yang sesuai standar</p>
-                </div>
-                <div className={style.listFiturItem}>
-                  <ProfileIcon></ProfileIcon>
-                  <p>Sistem antrian dan perawatan yang sistematis</p>
-                </div>
-                <div className={style.listFiturItem}>
-                  <FolderIcon></FolderIcon>
-                  <p>Pendataan stok obat yang terintegrasi</p>
-                </div>
+              <div className={style.listFiturItem}>
+                <ProfileIcon></ProfileIcon>
+                <p>Sistem antrian dan perawatan yang sistematis</p>
+              </div>
+              <div className={style.listFiturItem}>
+                <FolderIcon></FolderIcon>
+                <p>Pendataan stok obat yang terintegrasi</p>
               </div>
             </div>
           </div>
+        </div>
       </div>
-     
-      
     );
   };
 
-  const sectionThree = () => {
+  const SectionThree = () => {
     return (
       <div className={style.boxSectionThree}>
         <div className={style.frameSectionThree}>
@@ -67,14 +65,13 @@ const LandingPage = () => {
           </div>
 
           <div className={style.textWrapperSecond}>
-            <p>
-            Kelola Semua kebutuhan anda melalui satu sistem
-            </p>
+            <p>Kelola Semua kebutuhan anda melalui satu sistem</p>
           </div>
 
           <div className={style.textWrapperThird}>
             <p>
-            Kami hadir sebagai solusi yang membantu klinik anda untuk meningkatkan kualitas pelayanan
+              Kami hadir sebagai solusi yang membantu klinik anda untuk
+              meningkatkan kualitas pelayanan
             </p>
           </div>
         </div>
@@ -82,17 +79,17 @@ const LandingPage = () => {
     );
   };
 
-  const combineSection = () => {
+  const CombineSection = () => {
     return (
       <div className={style.Combine}>
-        <Frame></Frame>
-        {sectionTwo()}
-        {sectionThree()}
+        <Frame />
+        <SectionTwo />
+        <SectionThree />
         <BoxGroupRight
           imgSrc={kasirRight.src}
           text1="Proses Pembayaran di Kasir Menjadi Lebih Cepat, Mudah, dan Akurat"
           text2="Membantu meningkatkan efisiensi dan efektivitas proses pembayaran, hingga automasi mencatat semua transaksi keuangan, sehingga memudahkan proses audit dan rekonsiliasi."
-        ></BoxGroupRight>
+        />
         <BoxGroupLeft
           imgstrg={dashboardLeft.src}
           text1="Tingkatkan kualitas perawatan dengan Rekam Medis Elektronik"
@@ -100,13 +97,13 @@ const LandingPage = () => {
           point1="Memudahkan akses data pasien"
           point2="Memperkuat keamanan data"
           point3="Memperkuat keamanan data"
-        ></BoxGroupLeft>
+        />
         <BoxGroupRight
           imgSrc={kasirRight.src}
           text1="Kelola Obat Klinik Anda dengan Mudah dan Efisien"
           text2="Memudahkan pencatatan stok obat, melacak tanggal kadaluarsa atau stok menipis, hingga melakukan tindakan stop opname."
-        ></BoxGroupRight>
-        <SectionEmail></SectionEmail>
+        />
+        <SectionEmail />
       </div>
     );
   };
@@ -114,7 +111,9 @@ const LandingPage = () => {
   return (
     <div>
       <title>Pharmacin</title>
-      <DefaultLayout>{combineSection()}</DefaultLayout>
+      <DefaultLayout>
+        <CombineSection />
+      </DefaultLayout>
     </div>
   );
 };

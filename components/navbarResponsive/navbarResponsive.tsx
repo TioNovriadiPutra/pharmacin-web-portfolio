@@ -10,13 +10,13 @@ const NavbarResponsive = () => {
 
   return (
     <div className= {style.navbar}>
-      <div className="container">
+      <div className= {style.container}>
         <div className="logo">
         </div>
-        <div className="menu-icon" onClick={handleShowNavbar}>
+        <div className={style.menu_icon} onClick={handleShowNavbar}>
         ☰
         </div>
-        <div className={`div-elements  ${showNavbar && 'active'}`}>
+        <div className={`${style.nav_elements}  ${showNavbar ? style.active : ''}`}>
           <ul>
             <li>
               <a >Home</a>

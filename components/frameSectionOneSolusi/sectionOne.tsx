@@ -8,14 +8,11 @@ import CashierIcon from "./cashierIcon";
 const SectionOneSolusi: React.FC = () => {
   return (
     <div className={style.frame}>
-    <div className={style.overlap}>
-
-      <div className={style.ellipse}>
-      </div>
+      <div className={style.overlap}>
+        <div className={style.ellipse}></div>
         <div className={style.iconPositionFirst}>
           <BookIcon />
           <AnalyticskIcon />
-
         </div>
         <div className={style.iconPositionSecond}>
           <DatabaseIcon />
@@ -29,24 +26,23 @@ const SectionOneSolusi: React.FC = () => {
             Batas
           </p>
           <p className={style.textWrapper}>
-          Wujudkan pelayanan kesehatan yang lebih efisien, efektif, dan berorientasi pada
-           solusi terdepan untuk mengoptimalkan pengelolaan faskes Anda.
+            Wujudkan pelayanan kesehatan yang lebih efisien, efektif, dan
+            berorientasi pada solusi terdepan untuk mengoptimalkan pengelolaan
+            faskes Anda.
           </p>
         </div>
-   
-  
-      <div className={style.groupWrapper}>
-        <div className={style.dashboardKasirWrapper}>
-          <img
-            className={style.dashboardKasir}
-            alt="Dashboard kasir"
-            src={kasirImg.src}
-          />
+
+        <div className={style.groupWrapper}>
+          <div className={style.dashboardKasirWrapper}>
+            <img
+              className={style.dashboardKasir}
+              alt="Dashboard kasir"
+              src={kasirImg.src}
+            />
+          </div>
         </div>
       </div>
-
     </div>
-  </div>
   );
 };
 

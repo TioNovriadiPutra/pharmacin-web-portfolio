@@ -3,19 +3,17 @@ import style from "./harga.module.css";
 import DefaultLayout from "@/components/DefautLayout";
 
 const HargaPage = () => {
-const combineSection = () => {
-    return (
-        <div>
-            
-        </div>
-    )
-}
-return (
+  const CombineSection = () => {
+    return <div></div>;
+  };
+  return (
     <div>
-    <title>Pharmacin</title>
-    <DefaultLayout>{combineSection()}</DefaultLayout>
+      <title>Pharmacin</title>
+      <DefaultLayout>
+        <CombineSection />
+      </DefaultLayout>
     </div>
-)
+  );
 };
 
 export default HargaPage;
