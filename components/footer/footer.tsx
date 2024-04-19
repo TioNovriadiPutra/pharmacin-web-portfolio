@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styles from "./footer.module.css";
 import "./../../pages/globals.css";
-import PharImg from "./../../public/LogoPharmacinClear.png";
+import PharImg from "./../../public/LogoPharmacinFooter.png";
 import facebookLogo from "./../../public/facebookLogo.png";
 import InstagramLogo from "./../../public/instagramLogo.png";
 import LinkedinLogo from "./../../public/linkedinLogo.png";
